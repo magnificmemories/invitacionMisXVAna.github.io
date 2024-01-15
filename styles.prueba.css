@@ -116,7 +116,7 @@ body {
     grid-template-columns: 1fr 1fr;
 }
 .days-to-party {
-    background-image: url("/assets/iaaaaa_Mesa\ de\ trabajo\ 1.png");
+    background-image: url("./assets/iaaaaa_Mesa\ de\ trabajo\ 1.png");
     background-size: 100% 100%;
     height: 118px;
     width: 118px;
@@ -135,7 +135,7 @@ body {
     margin-top: -60px;
 }
 .hours-to-party {
-    background-image: url("/assets/iaaaaa_Mesa\ de\ trabajo\ 1.png");
+    background-image: url("./assets/iaaaaa_Mesa\ de\ trabajo\ 1.png");
     background-size: 100% 100%;
     height: 118px;
     width: 118px;
@@ -154,7 +154,7 @@ body {
     margin-top: -60px;
 }
 .minutes-to-party {
-    background-image: url("/assets/iaaaaa_Mesa\ de\ trabajo\ 1.png");
+    background-image: url("./assets/iaaaaa_Mesa\ de\ trabajo\ 1.png");
     background-size: 100% 100%;
     height: 118px;
     width: 118px;
@@ -174,7 +174,7 @@ body {
     margin-top: -60px;
 }
 .seconds-to-party {
-    background-image: url("/assets/iaaaaa_Mesa\ de\ trabajo\ 1.png");
+    background-image: url("./assets/iaaaaa_Mesa\ de\ trabajo\ 1.png");
     background-size: 100% 100%;
     height: 118px;
     width: 118px;
