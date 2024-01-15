@@ -1,0 +1,729 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f2e2e2;
+    pointer-events: none;
+}
+
+/* PRESENTATION SECTION GIF */
+.gif-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+    transition-duration: 2s;
+    transition-property: margin-bottom;
+}
+.gif-video {
+    width: 290px;
+    height: 290px;
+}
+
+/* FECHA DESPUES DEL GIF */
+.pre-presentation-date {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 20px;
+    transition-duration: 2s;
+    transition-property: margin-bottom, color;
+}
+.pre-presentation-date p {
+    color: #683C11;
+    font-family: 'Life Savers', serif;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.linea1-pre {
+    width: 60px;
+}
+.linea2-pre {
+    width: 60px;
+}
+
+/* PRESENTATION SECTION */
+.presentation-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 90px;
+    transition-duration: 2s;
+    transition-property: margin-bottom, color;
+}
+.principal-text {
+    font-family: 'Pinyon Script', cursive;
+    color: #C19090;
+    font-weight: lighter;
+    font-size: 43px;
+}
+.lastnames {
+    margin-top: 10px;
+}
+.principal-img {
+    width: 220px;
+    height: 280px;
+}
+
+/* TEMPORIZADOR */
+.stats-temp-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+} 
+.arrow-temp {
+    margin-top: -70px;
+    width: 280px;
+    margin-bottom: 35px;
+}
+.time-font {
+    font-family: 'Pinyon Script', cursive;
+    color: #683C11;
+    font-size: 35px;
+}
+.stats-temp-time {
+    font-family: 'Pinyon Script', cursive;
+    color: #683C11;
+    font-size: 27px;
+}
+.text-before-stats {
+    font-family: 'Oregano', cursive;
+    color: #999999;
+    font-weight:lighter;
+}
+.first-faltan {
+    font-size: 29px;
+    margin-right: 190px;
+    margin-bottom: 15px;
+}
+.second-faltan {
+    font-size: 24px;
+    margin-left: 150px;
+    margin-top: 40px;
+}
+.grid-stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.days-to-party {
+    background-image: url("/assets/iaaaaa_Mesa\ de\ trabajo\ 1.png");
+    background-size: 100% 100%;
+    height: 118px;
+    width: 118px;
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+.days-to-party p {
+    margin-bottom: 35px;
+    margin-left: -10px;
+}
+.days-stats {
+    margin-left: 40px;
+    margin-top: -60px;
+}
+.hours-to-party {
+    background-image: url("/assets/iaaaaa_Mesa\ de\ trabajo\ 1.png");
+    background-size: 100% 100%;
+    height: 118px;
+    width: 118px;
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+}
+.hours-to-party p {
+    margin-bottom: 35px;
+    margin-left: -10px;
+}
+.hours-stats {
+    margin-left: 48px;
+    margin-top: -60px;
+}
+.minutes-to-party {
+    background-image: url("/assets/iaaaaa_Mesa\ de\ trabajo\ 1.png");
+    background-size: 100% 100%;
+    height: 118px;
+    width: 118px;
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-right: 15px;
+}
+.minutes-to-party p {
+    margin-bottom: 35px;
+    margin-left: -10px;
+}
+.minutes-stats {
+    margin-left: 22px;
+    margin-top: -60px;
+}
+.seconds-to-party {
+    background-image: url("/assets/iaaaaa_Mesa\ de\ trabajo\ 1.png");
+    background-size: 100% 100%;
+    height: 118px;
+    width: 118px;
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 15px;
+}
+.seconds-to-party p {
+    margin-bottom: 35px;
+    margin-left: -10px;
+}
+.seconds-stats {
+    margin-left: 33px;
+    margin-top: -60px;
+}
+/* GALERY TITLE */
+.galery-title-div {
+    width: 100%;
+    background-color: #FCF1F1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.galery-title {
+    font-family: 'Waterfall', cursive;
+    font-size: 65px;
+    font-weight: 400;
+    color: #B27474;
+    padding: 0px 0px 12px 0px;
+}
+
+/* GALERY IMAGES */
+.images-galery-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.grid-images-galery-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+}
+.img-galery {
+    width: 120px;
+    height: 160px;
+    border-radius: 5px;
+    margin: 2px 6px;
+    /* s */
+}
+
+/* DAY & HOUR TITLE */
+.dayhour-title-div {
+    width: 100%;
+    background-color: #FCF1F1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+}
+.dayhour-title {
+    font-family: 'Waterfall', cursive;
+    font-size: 65px;
+    font-weight: 400;
+    color: #B27474;
+    padding: 0px 0px 10px 0px;
+}
+
+/* DIA Y HORA INFORMACION */
+.information-day-hour-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.misa-title {
+    font-size: 35px;
+    margin-left: 170px;
+}
+.information-titles {
+    font-family: 'Pinyon Script', cursive;
+    color: #683C11;
+    font-weight: 500;
+}
+.lines-information1 {
+    width: 280px;
+    margin-top: -5px;
+    margin-bottom: 10px;
+}
+.misa-img {
+    position: absolute;
+    width: 87px;
+    height: 82px;
+    margin-top: 30px;
+    margin-left: -150px;
+}
+.misa2-img {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    margin-top: 39px;
+    margin-left: -150px;
+}
+.recepcion-text {
+    margin-left: 118px;
+}
+.lines-information2 {
+    width: 280px;
+}
+.information-misa1 {
+    margin-left: 136px;
+}
+.information-misa2 {
+    margin-left: 153px;
+}
+.information-complementary {
+    color: #767676;
+    font-family: 'Oregano', cursive;
+    font-size: 22px;
+}
+.text-click-information {
+    font-family: 'Oregano', cursive;
+    text-decoration: none;
+    color: #767676;
+    font-size: 10px;
+    margin-left: 135px;
+    width: 130px;
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+/* LUGAR */
+.place-title-div {
+    width: 100%;
+    background-color: #FCF1F1;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+.place-title {
+    font-family: 'Waterfall', cursive;
+    font-size: 65px;
+    font-weight: 400;
+    color: #B27474;
+    /* text-shadow: 1px 2px 30px black; */
+}
+/* */
+.information-party-div {
+    width: 100%;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.information-party-div2 {
+    width: 100%;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 0px;
+}
+.parroquia-img {
+    position: absolute;
+    width: 120px;
+    height: 100px;
+    margin-top: 38px;
+    margin-left: -150px;
+}
+.salon-img {
+    margin-top: 28px;
+}
+.information-parroquia {
+    text-align: right;
+    width: 120px;
+    margin-top: -5px;
+    margin-left: 145px;
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+.parroquia-ubi {
+    font-size: 10px;
+    width: 170px;
+    margin-left: 95px;
+}
+.information-salon {
+    width: 120px;
+    text-align: right;
+    margin-left: 143px;
+    margin-bottom: 12px;
+}
+.lines-information2-fest {
+    width: 280px;
+    margin-top: -4px;
+    margin-bottom: 10px;
+}
+.lines-information2-party {
+    width: 280px;
+    margin-top: 0px;
+}
+/* PADRES */ 
+.padres-title {
+    margin-bottom: 30px;
+}
+.separation-padres {
+    font-family: 'Passions Conflict', cursive;
+    font-size: 26px;
+    position: absolute;
+    margin-left: 120px;
+    margin-top: -15px;
+    color: #767676;
+}
+.padres-information {
+    font-size: 22px;
+    text-align: center;
+    width: 140px;
+    margin-left: 110px;
+    margin-bottom: 22px;
+}
+.padres-information2 {
+    font-size: 22px;
+    text-align: center;
+    width: 200px;
+    margin-left: 110px;
+}
+.padre-information2 {
+    font-size: 20px;
+    text-align: center;
+    width: 200px;
+    margin-left: 110px;
+}
+.padres-img {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    margin-top: -10px;
+    margin-left: -170px;
+}
+
+/* MESA DE REGALOS */
+.mesa-de-regalos-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+} 
+.mesa-de-regalos {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+} 
+.mesa-de-regalos-img {
+    width: 240px;
+}
+.num-event-mesa {
+    margin-bottom: 50px;
+    color: #767676;
+    font-family: 'Oregano', cursive;
+    font-size: 24px;
+}
+.num-event {
+    margin-top: -50px;
+    color: #DE0096;
+    font-family: 'Oregano', cursive;
+    font-size: 20px;
+}
+.link-mesa {
+    margin-top: 15px;
+    color: #767676;
+    font-family: 'Oregano', cursive;
+    font-size: 24px;
+}
+.clic-mesa {
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: -2px;
+    color: #DE0096;
+    font-family: 'Oregano', cursive;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.lines-information-mesa-1 {
+    width: 280px;
+}
+.lines-information-mesa-2 {
+    width: 280px;
+    margin-bottom: 30px;
+}
+/* RECOMENDACION DE HOSPEDAJE */ 
+.rec-hos-title {
+    font-family: 'Waterfall', cursive;
+    font-size: 52px;
+    font-weight: 500;
+    color: #B27474;
+    width: 230px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.image-hotel {
+    width: 220px;
+    height: 145px;
+}
+.rec-hos-title-div {
+    width: 100%;
+    background-color: #FCF1F1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rec-hos {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.name-hotel {
+    color: #AF6464;
+    font-family: 'Oregano', cursive;
+    font-size: 30px;
+}
+.tel-hotel {
+    color: #767676;
+    font-size: 28px;
+    font-family: 'Oregano', cursive;
+}
+.clic-hotel {
+    text-decoration: none;
+    color: #767676;
+    font-size: 15px;
+    font-family: 'Oregano', cursive;
+}
+.lines-information-hos-1 {
+    width: 280px;
+}
+.lines-information-hos-2 {
+    width: 280px;
+}
+/* FORM */ 
+.form-last-part {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form-last-part-information {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.image-form {
+    width: 80px;
+    margin-left: 10px;
+    margin-right: 55px;
+}
+.clic-form {
+    text-decoration: none;
+    font-family: 'Oregano', cursive;
+    color: #767676;
+    text-align: right;
+    width: 150px;
+    margin-left: -50px;
+}
+/* FOOTER */
+.footer-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FCF1F1;
+    margin-top: 20px;
+    height: 50px;
+    flex-direction: row;
+}
+.footer-text {
+    font-family: 'Oregano', cursive;
+    color: #CFCFCF;
+}
+.footer-image {
+    width: 10px;
+    margin-right: 2px;
+    margin-bottom: 4px;
+}
+/* MARCOS */
+.derecha-marcos {
+    position: absolute;
+    top: 0;
+    width: 35px;
+    right: 0;
+    height: 1000px;
+}
+.izquierda-marcos {
+    position: absolute;
+    top: 0;
+    width: 35px;
+    left: 0;
+    height: 1000px;
+}
+.img-der-1 {
+    width: 35px;
+    margin-bottom: -4px;
+}
+.img-der-2 {
+    width: 35px;
+    margin-bottom: -4px;
+}
+.img-izq-1 {
+    width: 35px;
+    margin-bottom: -4px;
+    transform: scaleX(-1);
+}
+.img-izq-2 {
+    width: 35px;
+    margin-bottom: -4px;
+    transform: scaleX(-1);
+}
+.img-final-izq {
+    width: 0px;
+    height: 0px;
+}
+.img-final-der {
+    width: 0px;
+    height: 0px;
+}
+
+@media (min-width: 720px){
+    .gif-video {
+        width: 490px;
+        height: 490px;
+        margin-top: 20px;
+    }
+    .presentation-div {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .principal-img {
+        width: 320px;
+        height: 380px;
+    }
+    .grid-stats {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .minutes-to-party, .seconds-to-party, .days-to-party, .hours-to-party {
+        margin: 20px;
+        height: 138px;
+        width: 138px;
+        border-radius: 60px;
+    }
+    .arrow-temp {
+        width: 380px;
+    }
+    .time-font {
+        font-size: 40px;
+    }
+    .stats-temp-time {
+        font-size: 32px;
+        margin-top: -90px;
+    }
+    .days-stats {
+        margin-left:66px;
+    }
+    .hours-stats {
+        margin-left:60px;
+    }
+    .minutes-stats {
+        margin-left:45px;
+    }
+    .seconds-stats {
+        margin-left:42px;
+    }
+    .first-faltan {
+        font-size: 34px;
+        margin-right: 590px;
+        margin-bottom: 15px;
+    }
+    .second-faltan {
+        font-size: 30px;
+        margin-left: 500px;
+        margin-top: 55px;
+    }
+    .grid-images-galery-div {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .img-galery {
+        width: 200px;
+        height: 240px;
+        margin: 4px 16px;
+    }
+    .pre-presentation-date p {
+        color: #683C11;
+        font-family: 'Life Savers', serif;
+        margin-left: 5px;
+        margin-right: 5px;
+        font-size: 24px;
+    }
+    .linea1-pre, .linea2-pre {
+        width: 150px;
+    }
+    .img-final-izq {
+        width: 35px;
+        height: 275px;
+        position: absolute;
+        transform: scaleX(-1);
+        top: 4650px;
+        left: 0;
+    }
+    .img-final-der {
+        width: 35px;
+        height: 275px;
+        position: absolute;
+        top: 4650px;
+        right: 0;
+    }
+    .responsive-day-hour {
+        display: flex;
+        flex-direction: row;
+    }
+    .inactive {
+        display: none;
+    }
+    .ult-marco-responsive-der {
+        height: 192px;
+    }
+    .ult-marco-responsive-izq {
+        height: 192px;
+    }
+}
+
