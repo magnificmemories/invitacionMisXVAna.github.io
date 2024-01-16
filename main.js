@@ -1,3 +1,4 @@
+
 // Definir la fecha y hora del evento (puedes personalizar esto)
 const eventDate = new Date('2024-03-02T16:00:00').getTime();
 
