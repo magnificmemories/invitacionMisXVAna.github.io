@@ -41,6 +41,7 @@ body {
     font-family: 'Life Savers', serif;
     margin-left: 5px;
     margin-right: 5px;
+    font-size: 20px;
 }
 .linea1-pre {
     width: 60px;
@@ -62,7 +63,7 @@ body {
 }
 .principal-text {
     font-family: 'Pinyon Script', cursive;
-    color: #C19090;
+    color: #CE2E7B;
     font-weight: lighter;
     font-size: 43px;
 }
@@ -388,7 +389,66 @@ body {
     width: 280px;
     margin-top: 0px;
 }
+/* CODIGO */
+.p-1-code {
+    color: #683C11;
+    font-family: 'Pinyon Script', cursive;
+    font-size: 35px;
+    margin-bottom: 10px;
+    margin-top: -110px;
+    margin-left: 150px;
+}
+.p-2-code {
+    color: #767676;
+    font-family: 'Oregano', cursive;
+    font-size: 15px;
+    width: 100px;
+    text-align: center;
+    margin-left: 150px;
+    margin-top: -5px;
+    margin-bottom: 15px;
+}
+.code-flex {
+    display: flex;
+    flex-direction: column;
+}
+.code-title {
+    margin-bottom: 0px;
+}
+.code-main {
+    width: 100%;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.img-code {
+    width: 130px;
+    height: 110px;
+    margin-left: -140px;
+}
+.code-title-div {
+    margin-top: 40px;
+    width: 100%;
+    background-color: #FCF1F1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 /* PADRES */ 
+.pad-div-main {
+    width: 100%;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 115px;
+    margin-bottom: 100px;
+}
 .padres-title {
     margin-bottom: 30px;
 }
@@ -401,17 +461,15 @@ body {
     color: #767676;
 }
 .padres-information {
-    font-size: 22px;
-    text-align: center;
-    width: 140px;
-    margin-left: 110px;
+    font-size: 30px;    
     margin-bottom: 22px;
+    font-family: 'Birthstone', cursive;
 }
 .padres-information2 {
-    font-size: 22px;
-    text-align: center;
-    width: 200px;
-    margin-left: 110px;
+    margin-top: -20px;
+    font-size: 30px;    
+    margin-bottom: 10px;
+    font-family: 'Birthstone', cursive;
 }
 .padre-information2 {
     font-size: 20px;
@@ -426,7 +484,22 @@ body {
     margin-top: -10px;
     margin-left: -170px;
 }
-
+.img-fam {
+    width: 220px;
+    height: 287px;
+    margin-top: 0px;
+}
+/* PADRINOS */
+.padrinos-div-main {
+    width: 100%;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 115px;
+    margin-bottom: 100px;
+}
 /* MESA DE REGALOS */
 .mesa-de-regalos-div {
     width: 100%;
@@ -625,6 +698,15 @@ body {
     display: none;
 }
 
+.img-izq-final-good {
+    position: absolute;
+    top: 5120px;
+}
+.img-der-final-good {
+    position: absolute;
+    top: 5120px;
+}
+
 @media (min-width: 790px){
     .gif-video {
         width: 490px;
@@ -781,6 +863,14 @@ body {
         position: absolute;
         top: 3970px;
         display: flex;
+    }
+    .res-last-izq {
+        position: absolute;
+        top: 4673px;
+    }
+    .res-last-der {
+        position: absolute;
+        top: 4673px;
     }
 }
 
