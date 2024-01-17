@@ -701,6 +701,7 @@ body {
 .img-izq-final-good {
     position: absolute;
     top: 5120px;
+    left: 0;
 }
 .img-der-final-good {
     position: absolute;
@@ -867,6 +868,7 @@ body {
     .res-last-izq {
         position: absolute;
         top: 4673px;
+        left: 0;
     }
     .res-last-der {
         position: absolute;
