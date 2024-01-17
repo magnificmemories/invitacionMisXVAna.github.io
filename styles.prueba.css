@@ -307,7 +307,7 @@ body {
     font-family: 'Oregano', cursive;
     text-decoration: none;
     color: #767676;
-    font-size: 10px;
+    font-size: 14px;
     margin-left: 135px;
     width: 130px;
     margin-bottom: 10px;
@@ -370,7 +370,7 @@ body {
     margin-bottom: 12px;
 }
 .parroquia-ubi {
-    font-size: 10px;
+    font-size: 14px;
     width: 170px;
     margin-left: 95px;
 }
@@ -706,6 +706,7 @@ body {
 .img-der-final-good {
     position: absolute;
     top: 5120px;
+    right: 35px;
 }
 
 @media (min-width: 790px){
