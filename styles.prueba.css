@@ -388,6 +388,7 @@ body {
 .lines-information2-party {
     width: 280px;
     margin-top: 0px;
+    margin-bottom: 7px;
 }
 /* CODIGO */
 .p-1-code {
@@ -717,12 +718,13 @@ body {
 
 .img-izq-final-good {
     position: absolute;
-    top: 5150px;
+    top: 5110px;
     left: 0;
 }
 .img-der-final-good {
     position: absolute;
-    top: 5150px;
+    top: 5110px;
+    right: 0;
 }
 
 @media (min-width: 790px){
