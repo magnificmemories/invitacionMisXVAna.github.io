@@ -8,6 +8,9 @@ body {
     background-color: #f2e2e2;
 }
 
+img {
+    pointer-events: none;
+}
 
 
 /* PRESENTATION SECTION GIF */
